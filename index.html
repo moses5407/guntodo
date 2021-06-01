@@ -29,7 +29,8 @@
       user.create($('#alias').val(), $('#pass').val());
     });
 
-    $('#sign').on('submit', function(e){
+    <!--$('#sign').on('submit', function(e){ -->
+      $('#in').on('submit', function(e){
       e.preventDefault();
       user.auth($('#alias').val(), $('#pass').val());
     });
